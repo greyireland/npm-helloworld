@@ -12,7 +12,9 @@ Print();
 ## publish npm package
 
 ```js
+// set scope
 npm init --scope=@greyireland -y
 npm login
-npm publish
+// set access=public
+npm publish --access public
 ```
