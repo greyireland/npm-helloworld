@@ -1,0 +1,2 @@
+var Print = require('../');
+Print()
