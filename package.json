@@ -1,5 +1,5 @@
 {
-  "name": "helloworld",
+  "name": "@greyireland/npm-helloworld",
   "version": "1.0.0",
   "description": "print helloworld",
   "main": "index.js",
@@ -7,12 +7,19 @@
     "test": "node test/index.js"
   },
   "repository": {
-    "type":"git",
-    "url": "https://github.com/greyireland/npm-helloworld.git"
+    "type": "git",
+    "url": "git+https://github.com/greyireland/npm-helloworld.git"
   },
   "keywords": [
     "helloworld"
   ],
   "author": "greyireland",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greyireland/npm-helloworld/issues"
+  },
+  "homepage": "https://github.com/greyireland/npm-helloworld#readme",
+  "directories": {
+    "test": "test"
+  }
 }
